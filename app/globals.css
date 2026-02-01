@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-inter);
+  --font-cursive: var(--font-great-vibes);
+}
+
+:root {
+  --background: #fff1f2;
+  --foreground: #881337;
+}
+
+body {
+  color: var(--foreground);
+  background: linear-gradient(to bottom right, #fff1f2, #ffe4e6, #fecdd3);
+  min-height: 100vh;
+  font-family: var(--font-sans), sans-serif;
+  overflow-x: hidden;
+}
