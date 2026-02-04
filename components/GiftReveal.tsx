@@ -20,7 +20,7 @@ export function GiftReveal() {
 
             <div className="space-y-2">
                 <h2 className="text-3xl font-bold text-rose-600 font-cursive">It's a Date!</h2>
-                <p className="text-gray-700 text-lg">I'm so happy you said yes!</p>
+                <p className="text-gray-700 text-lg">I'm so happy you said yes! <br /> <span className="font-bold text-rose-500">14-02-2026</span></p>
             </div>
 
             <div className="bg-white/60 p-6 rounded-xl w-full space-y-6 shadow-sm text-left">
@@ -30,11 +30,12 @@ export function GiftReveal() {
                     <div className="absolute -left-[9px] top-0 bg-rose-500 rounded-full p-1 border-2 border-white">
                         <Clock size={12} className="text-white" />
                     </div>
-                    <p className="text-xs font-bold text-rose-500 uppercase tracking-wider mb-1">17:30 • The Start</p>
+                    <p className="text-xs font-bold text-rose-500 uppercase tracking-wider mb-1">20:15 • The Start</p>
                     <h3 className="text-lg font-bold text-gray-800">Dinner at <a href="https://maps.app.goo.gl/TsiX9TvKagqkMJYu8" target="_blank" rel="noopener noreferrer" className="underline decoration-rose-300 underline-offset-2 hover:text-rose-600">PANTJA</a></h3>
                     <p className="text-sm text-gray-600 mt-1">
                         We start with their famous <strong className="text-rose-600">fried chicken 🍗</strong> and <strong className="text-rose-600">cocktails 🍹</strong>.
-                        (Auto-approved by you ✅).
+                        (Auto-approved by you ✅). <br />
+                        <span className="text-xs italic text-rose-500">*No slippers and sandals allowed! 👠👞</span>
                     </p>
                 </div>
 
